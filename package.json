@@ -1,0 +1,23 @@
+{
+  "name": "eclim-atom-autocomplete-provider",
+  "main": "./lib/eclim-atom-autocomplete-provider",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "eclim-atom-autocomplete-provider:toggle"
+  },
+  "repository": "https://github.com/kurpachsv/eclim-atom-autocomplete-provider.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}

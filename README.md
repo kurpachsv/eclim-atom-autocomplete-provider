@@ -1,2 +1,1 @@
-# eclim-atom-autocomplete-provider
-Suggestions provider for eclim-atom package
+# eclim-atom-autocomplete-provider package

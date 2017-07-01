@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle eclim-atom-autocomplete-provider",
+        "command": "eclim-atom-autocomplete-provider:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "eclim-atom-autocomplete-provider",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "eclim-atom-autocomplete-provider:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
