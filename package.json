@@ -3,8 +3,7 @@
   "main": "./lib/main.js",
   "version": "0.0.1",
   "description": "Suggestions provider for eclim-atom package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "eclim-atom-autocomplete-provider:toggle"
   },
